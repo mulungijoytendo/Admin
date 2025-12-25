@@ -65,21 +65,6 @@
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.4.17",
-    "vite": "^6.2.6",
-    "devDependencies": {
-     "vite": "^5.0.0",
-     "@vitejs/plugin-react": "^4.0.0"
-   }
-```
-6. **Commit changes** (bottom of page)
-7. Render will **auto-deploy** automatically
-
----
-
-## **Option 2: Quick Fix with Build Command**
-
-While waiting to fix the package.json, try this build command that installs vite first:
-```
-npm ci && npm install vite @vitejs/plugin-react --save-dev && npx vite build
+    "vite": "^6.2.6"
   }
 }
